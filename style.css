@@ -24,7 +24,8 @@ body {
 .main-cont {
     width: 100%;
     max-width: 650px;
-    margin: auto;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .musicplayer, .greeting, .info {
