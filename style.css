@@ -1,88 +1,83 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://raw.githubusercontent.com/catppuccin/waybar/refs/heads/main/themes/macchiato.css');
 
 body {
-	font-family: "Figtree";
-	text-align: center;
-	color: #cad3f5;
-	background-color: #24273a;
-	padding: 20px;
+    font-family: "Figtree";
+    text-align: center;
+    color: #cad3f5;
+    background-color: #24273a;
+    padding: 20px;
+    margin: 0;
 }
 
 .musicplayer {
-	display: flex;
-	justify-content: center; 
-	align-items: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
 }
 
 .musicplayer, .info {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .main-cont {
-  position: fixed;
-  inset: 0;
-  width: fit-content;
-  height: fit-content;
-  margin: auto;
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
 }
 
 .musicplayer, .greeting, .info {
-	width: 100% !important;
-	height: 100% !important; 
-	/*
-	width: 650px !important;
-	height: 650px !important;
-			      */
-	max-width: 650px !important;
-	max-height: 650px !important;
+    width: 100%;
+    max-width: 650px;
 }
 
 .musicplayer:hover, .greeting:hover, .info:hover {
-	transform: scale(1.01);
-	transition: border-color 0.2s ease, transform 0.4s ease;
-	animation: shimmer 2s infinite linear;
-	border: 0.7mm solid #363a4f;
-	border-color: #b7bdf8;
+    transform: scale(1.01);
+    transition: border-color 0.2s ease, transform 0.4s ease;
+    animation: shimmer 2s infinite linear;
+    border: 0.7mm solid #363a4f;
+    border-color: #b7bdf8;
 }
 
 .info, .greeting, .musicplayer {
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-}
-
-.musicplayer, .greeting, .info {
-	background-color: #363a4f;
-	border-radius: 5px;
-	border: 0.5mm solid #363a4f;
-	border-color: #494d64;
-
+    padding: 20px;
+    background-color: #363a4f;
+    border-radius: 5px;
+    border: 0.5mm solid #363a4f;
+    border-color: #494d64;
 }
 
 .track, .album, .artist {
-	margin-left: 20px; 
+    margin: 10px 0;
 }
 
 .text-cont {
-	display: flex;
-	flex-direction: column;
-	text-align: left;
-	margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .cover {
-	width: 150px;
-	height: 150px;
-	border-radius: 5px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-left: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 5px;
+    margin: 20px 0;
 }
 
 .greeting {
-	display: flex;
-	justify-content: end;
-	flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    .musicplayer, .greeting, .info {
+        padding: 10px;
+    }
+
+    .cover {
+        max-width: 100px;
+    }
 }
