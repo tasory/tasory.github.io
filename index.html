@@ -1,53 +1,31 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title> Tasory Web Page </title>
-  <style type="text/css">
-   TABLE {
-    width: 100%; 
-    height: 100%;   
-   }
-   * {
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-    background-color: #24273a;
-    font-family: "Fira Code", monospace;
-  }
-   .greet {
-	font-size: 45pt;
-   }
-   .text {
-	font-size: 20pt;
-   }
-
-   .links {
-	font-size: 20pt;
-   }
-  </style>
- </head>
- <body>
-  <table>
-   <tr>
-    <td align="center">
-    <font color = "#D8DEE9"
-	
-	<div class="greet"> 
-		<p>Hello! I'm tasory!</p>
-	</div>
-    	
-	<div class="text">
-		<p>I use Arch, Alpine and NixOS (btw)</p>
-		<p>With bspwm 0.9.10-3</p>
-		<p>CPU: Ryzen7 2700</p>
-		<p>GPU: Nivivdia GTX 1660s</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasory's site!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main-cont">
+	<div class="greeting">
+		<h2>Hii!!!</h2>
 	</div>
 
-	<div class="links">
-		<link href="https://www.youtube.com/@tasori.phenom"> My YouTube: @tasori.phenom </link>
-		<link href="discord.com/app"> My Discord: @real_neco_tasory </link>
+	<div class="info">
+		<p>My name is tasory, I'm linux enthusiast, I use gentoo with Hyprland.</p>
+		<p>I love linux, comfort and coffee.</p>
 	</div>
-     <pi>
-    </td>
-   </tr>
-  </table> 
- </body>
+
+	<div class="musicplayer">
+		<img class="cover" id="album-cover" src="" alt="album-cover">
+		<div class="text-cont">
+			<h1 class="track"  id="track-title">Track name</h2>
+			<p  class="artist" id="artist-name">Artist name</p>
+			<p  class="album"  id="album-title">Album name</p>
+		</div>		
+		<script src="lastfm.js"></script>
+	</div>
+	</div>
+</body>
 </html>
