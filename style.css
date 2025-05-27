@@ -17,11 +17,6 @@ body {
     flex-direction: column;
 }
 
-.album, .artist {
-    justify-content: center; 
-    align-items: center;
-}
-
 .musicplayer, .info {
     margin-top: 20px;
 }
@@ -60,7 +55,8 @@ body {
 .text-cont {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
+    align-items: center;
 }
 
 .cover {
