@@ -29,12 +29,14 @@ body {
 }
 
 .musicplayer, .greeting, .info {
-	/* width: 100% !important;
-	height: 100% !important; */
+	width: 100% !important;
+	height: 100% !important; 
+	/*
 	width: 650px !important;
 	height: 650px !important;
-	/* max-width: 650px !important;
-	max-height: 650px !important; */
+			      */
+	max-width: 650px !important;
+	max-height: 650px !important;
 }
 
 .musicplayer:hover, .greeting:hover, .info:hover {
