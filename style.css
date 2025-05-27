@@ -76,7 +76,7 @@ body {
 	margin-left: 20px;
 }
 
-.greeting {
+.greeting, .links {
 	display: flex;
 	justify-content: end;
 	flex-direction: column;
