@@ -16,7 +16,7 @@ body {
 	align-items: center;
 }
 
-.musicplayer, .info, .links {
+.musicplayer, .info {
 	margin-top: 20px;
 }
 
@@ -28,14 +28,14 @@ body {
   margin: auto;
 }
 
-.musicplayer, .greeting, .info, .links {
+.musicplayer, .greeting, .info {
 	width: 100% !important;
 	height: 100% !important;
 	max-width: 650px !important;
 	max-height: 650px !important;
 }
 
-.musicplayer:hover, .greeting:hover, .info:hover, .links:hover {
+.musicplayer:hover, .greeting:hover, .info:hover {
 	transform: scale(1.01);
 	transition: border-color 0.2s ease, transform 0.4s ease;
 	animation: shimmer 2s infinite linear;
@@ -43,12 +43,12 @@ body {
 	border-color: #b7bdf8;
 }
 
-.info, .greeting, .musicplayer, .links {
+.info, .greeting, .musicplayer {
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-.musicplayer, .greeting, .info, .links {
+.musicplayer, .greeting, .info {
 	background-color: #363a4f;
 	border-radius: 5px;
 	border: 0.5mm solid #363a4f;
@@ -76,7 +76,7 @@ body {
 	margin-left: 20px;
 }
 
-.greeting, .links {
+.greeting {
 	display: flex;
 	justify-content: end;
 	flex-direction: column;
