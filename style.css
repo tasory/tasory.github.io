@@ -7,11 +7,16 @@ body {
     color: #cad3f5;
     background-color: #24273a;
     margin: 0;
+
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .musicplayer {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
