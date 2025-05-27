@@ -17,6 +17,10 @@ body {
     flex-direction: column;
 }
 
+.album, .artist {
+    align-items: center;
+}
+
 .musicplayer, .info {
     margin-top: 20px;
 }
