@@ -77,11 +77,3 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-
-.musicplayer, .greeting, .info {
-    padding: 10px;
-}
-
-.cover {
-    max-width: 100px;
-}
