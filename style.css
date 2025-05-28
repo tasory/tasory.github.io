@@ -25,7 +25,7 @@ body {
 }
 
 .info, .musicplayer {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .main-cont {
@@ -35,14 +35,13 @@ body {
     margin-left: 20px;
 }
 
-.musicplayer, .greeting, .info, .deltarune {
-    width: 100%;
-    max-width: 650px;
+.info {
+    padding-bottom: 20px;
 }
 
 .musicplayer:hover, .greeting:hover, .info:hover, .deltarune:hover {
     transform: scale(1.01);
-    transition: border-color 0.2s ease, transform 0.4s ease;
+    transition: sliding-vertically 0.2s ease, transform 0.4s ease;
     animation: shimmer 2s infinite linear;
     border: 0.7mm solid #363a4f;
     border-color: #b7bdf8;
