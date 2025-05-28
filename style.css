@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://raw.githubusercontent.com/catppuccin/waybar/refs/heads/main/themes/macchiato.css');
 
 body {
     font-family: "Figtree";
@@ -21,7 +20,7 @@ body {
     flex-direction: column;
 }
 
-.musicplayer, .info {
+.musicplayer, .info, .deltarune {
     margin-top: 20px;
 }
 
@@ -32,12 +31,12 @@ body {
     margin-left: 20px;
 }
 
-.musicplayer, .greeting, .info {
+.musicplayer, .greeting, .info, .deltarune {
     width: 100%;
     max-width: 650px;
 }
 
-.musicplayer:hover, .greeting:hover, .info:hover {
+.musicplayer:hover, .greeting:hover, .info:hover, .deltarune:hover {
     transform: scale(1.01);
     transition: border-color 0.2s ease, transform 0.4s ease;
     animation: shimmer 2s infinite linear;
@@ -45,8 +44,7 @@ body {
     border-color: #b7bdf8;
 }
 
-.info, .greeting, .musicplayer {
-    padding: 20px;
+.info, .greeting, .musicplayer, .deltarune {
     background-color: #363a4f;
     border-radius: 5px;
     border: 0.5mm solid #363a4f;
