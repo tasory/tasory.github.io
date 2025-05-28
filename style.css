@@ -24,6 +24,10 @@ body {
     margin-top: 20px;
 }
 
+.info, .musicplayer {
+    margin-bottom: 20px;
+}
+
 .main-cont {
     width: 100%;
     max-width: 650px;
