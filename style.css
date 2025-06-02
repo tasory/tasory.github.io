@@ -20,7 +20,16 @@ body {
     flex-direction: column;
 }
 
-.musicplayer, .info, .deltarune {
+.photos-button, .buttons-button, .about-button, .main-button {
+	border-radius:  5px;
+	padding-bottom: 20px;
+}
+
+.mytelegram, .myyoutube, .mybluesky {
+	border-radius:  5px;
+}
+
+.musicplayer, .info, .greeting {
     margin-top: 20px;
 }
 
@@ -39,7 +48,7 @@ body {
     padding-bottom: 20px;
 }
 
-.musicplayer:hover, .greeting:hover, .info:hover, .deltarune:hover {
+.musicplayer:hover, .greeting:hover, .info:hover, .links:hover {
     transform: scale(1.01);
     transition: sliding-vertically 0.2s ease, transform 0.4s ease;
     animation: shimmer 2s infinite linear;
@@ -47,7 +56,7 @@ body {
     border-color: #b7bdf8;
 }
 
-.info, .greeting, .musicplayer, .deltarune {
+.info, .greeting, .musicplayer, .links {
     background-color: #363a4f;
     border-radius: 5px;
     border: 0.5mm solid #363a4f;
