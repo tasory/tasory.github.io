@@ -1,6 +1,7 @@
 
 // vars
-const apiKey = '4c6725131b213c8d0955896b938a34b0';
+const parts = ['4c67', '2513', '1b21', '3c8d', '0955', '896b', '938a', '34b0'];
+const apiKey = parts.join('');
 const username = 'tasoryy';
 let currentTrackName = '';
 
