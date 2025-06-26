@@ -33,10 +33,6 @@ body {
     margin-top: 20px;
 }
 
-.social {
-	margin-top: 20px;
-}
-
 .info, .musicplayer {
     padding-bottom: 20px;
 }
@@ -46,10 +42,6 @@ body {
     max-width: 650px;
     margin-right: 20px;
     margin-left: 20px;
-}
-
-.info {
-    padding-bottom: 20px;
 }
 
 .musicplayer:hover, .greeting:hover, .info:hover, .links:hover, .social:cover {
