@@ -48,7 +48,7 @@ body {
     padding-bottom: 20px;
 }
 
-.musicplayer:hover, .greeting:hover, .info:hover, .links:hover {
+.musicplayer:hover, .greeting:hover, .info:hover, .links:hover, .stampes:cover {
     transform: scale(1.01);
     transition: sliding-vertically 0.2s ease, transform 0.4s ease;
     animation: shimmer 2s infinite linear;
@@ -56,7 +56,7 @@ body {
     border-color: #b7bdf8;
 }
 
-.info, .greeting, .musicplayer, .links {
+.info, .greeting, .musicplayer, .links, .stampes {
     background-color: #363a4f;
     border-radius: 5px;
     border: 0.5mm solid #363a4f;
