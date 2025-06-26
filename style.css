@@ -20,7 +20,7 @@ body {
     flex-direction: column;
 }
 
-.photos-button, .buttons-button, .about-button, .main-button {
+.photos-button, .buttons-button, .about-button, .main-button, .info {
 	border-radius:  5px;
 	padding-bottom: 20px;
 }
