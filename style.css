@@ -20,6 +20,11 @@ body {
     flex-direction: column;
 }
 
+.musicplayer-container {
+	display: flex;
+	flex-direction: row
+}
+
 .photos-button, .buttons-button, .about-button, .main-button, .info {
 	border-radius:  5px;
 	padding-bottom: 20px;
@@ -33,8 +38,16 @@ body {
 	border-radius:  5px;
 }
 
-.musicplayer, .info, .greeting {
-    margin-top: 20px;
+.musicplayer, .social, .info, .greeting {
+	margin-top: 20px;
+}
+
+.social {
+	padding-bottom: 20px;
+}
+
+.info {
+	padding-top: 20px;
 }
 
 .info, .musicplayer {
@@ -68,10 +81,17 @@ body {
 }
 
 .text-cont {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.text-cont {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: left;
+    margin-left: 20px;
 }
 
 .cover {
@@ -79,7 +99,6 @@ body {
     height: auto;
     max-width: 150px;
     border-radius: 5px;
-    margin: 20px 0;
 }
 
 .greeting {
