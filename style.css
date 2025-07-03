@@ -61,15 +61,14 @@ body {
     margin-left: 20px;
 }
 
-.musicplayer:hover, .greeting:hover, .info:hover, .links:hover, .social:cover {
-    transform: scale(1.01);
-    transition: sliding-vertically 0.2s ease, transform 0.4s ease;
-    animation: shimmer 2s infinite linear;
-    border: 0.7mm solid #363a4f;
-    border-color: #b7bdf8;
+.musicplayer:hover, .greeting:hover, .info:hover, .links:hover, .social:hover {
+	border: 0.5mm solid #363a4f;
+	border-color: #b7bdf8;
+	transition: border-color 0.2s;
 }
 
 .info, .greeting, .musicplayer, .links, .social {
+    transition: border-color 0.5s ease-in-out 0.01s;
     background-color: #363a4f;
     border-radius: 5px;
     border: 0.5mm solid #363a4f;
