@@ -67,6 +67,16 @@ body {
 	transition: border-color 0.2s;
 }
 
+.header-img {
+	width:	1600px;
+	width:	400px;
+}
+
+.header {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
 .info, .greeting, .musicplayer, .links, .social {
     transition: border-color 0.5s ease-in-out 0.01s;
     background-color: #363a4f;
