@@ -4,7 +4,7 @@ body {
     font-family: "Figtree", sans-serif;
     text-align: center;
     color: #cad3f5;
-    background-image: url('https://i.pinimg.com/736x/2b/ea/e0/2beae0e3edafbe96d129da738e36efd6.jpg');
+    background-image: url('https://i.pinimg.com/736x/92/53/f4/9253f4fecf3f42cd44c56c0b92146371.jpg');
     /* background-color: #24273a; */
     display: flex;
     justify-content: center;
@@ -16,27 +16,34 @@ body {
     }
 }
 
+body {
+    background-image:   url('https://i.pinimg.com/736x/85/ff/02/85ff02152831e209769d60bbf847063b.jpg');
+    min-height:         100vh;
+    background-size:    343px 610px;
+    animation:          moveBackground 20s linear infinite;
+}
+
 body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(36, 39, 58, 0.7);
-    z-index: -1;
+    content:        '';
+    position:       fixed;
+    top:            0;
+    left:           0;
+    width:          100%;
+    height:         100%;
+    background:     rgba(36, 39, 58, 0.7);
+    z-index:        -1;
 }
 
 .musicplayer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+    flex-direction:     column;
 }
 
 .musicplayer-container {
-	display: flex;
-	flex-direction: row
+	display:            flex;
+	flex-direction:     row
 }
 
 .photos-button, .buttons-button, .about-button, .main-button, .info {
@@ -53,7 +60,7 @@ body::before {
 }
 
 .social {
-    padding-top: 20px;
+    padding-top:    20px;
 	padding-bottom: 20px;
 }
 
@@ -71,9 +78,9 @@ body::before {
 }
 
 .musicplayer:hover, .greeting:hover, .info:hover, .links:hover, .social:hover {
-	border: 0.5mm solid #363a4f;
-	border-color: #b7bdf8;
-	transition: border-color 0.2s;
+	border:         0.5mm solid #363a4f;
+	border-color:   #b7bdf8;
+	transition:     border-color 0.2s;
 }
 
 .header-img {
@@ -86,11 +93,11 @@ body::before {
 }
 
 .info, .greeting, .musicplayer, .links, .social {
-    transition: border-color 0.5s ease-in-out 0.01s;
-    background-color: #363a4f;
-    border-radius: 5px;
-    border: 0.5mm solid #363a4f;
-    border-color: #494d64;
+    transition:         border-color 0.5s ease-in-out 0.01s;
+    background-color:   #363a4f;
+    border-radius:      5px;
+    border:             0.5mm solid #363a4f;
+    border-color:       #494d64;
 }
 
 .track, .album, .artist {
@@ -98,33 +105,33 @@ body::before {
 }
 
 .text-cont {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left:   5px;
+    padding-right:  5px;
 }
 
 
 .text-cont {
-    display: flex;
+    display:        flex;
     flex-direction: column;
-    text-align: left;
-    margin-left: 20px;
+    text-align:     left;
+    margin-left:    20px;
 }
 
 .cover {
-    width: 100%;
-    height: auto;
-    max-width: 150px;
-    border-radius: 5px;
+    width:          100%;
+    height:         auto;
+    max-width:      150px;
+    border-radius:  5px;
 }
 
 .wave-text {
-    display: flex;
-    justify-content: center;
+    display:            flex;
+    justify-content:    center;
 }
 
 .wave-text span {
-    display: inline-block;
-    animation: wave 2s ease-in-out infinite;
+    display:    inline-block;
+    animation:  wave 2s ease-in-out infinite;
 }
 
 .wave-text span:nth-child(1) { animation-delay: 0.0s; }
@@ -178,3 +185,13 @@ body::before {
         transform: translateY(-5px); 
     }
 }
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
