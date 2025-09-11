@@ -16,6 +16,10 @@ body {
     }
 }
 
+.header {
+    color: #f4dbd6;
+}
+
 body {
     background-image:   url('https://i.pinimg.com/736x/85/ff/02/85ff02152831e209769d60bbf847063b.jpg');
     min-height:         100vh;
@@ -55,8 +59,12 @@ body::before {
 	border-radius:  5px;
 }
 
-.musicplayer, .social, .info, .greeting {
-	margin-top: 20px;
+.musicplayer, .social, .info {
+	margin-top: 15px;
+}
+
+.header {
+	margin-bottom: 15px;
 }
 
 .social {
@@ -77,27 +85,23 @@ body::before {
     max-width: 650px;
 }
 
-.musicplayer:hover, .greeting:hover, .info:hover, .links:hover, .social:hover {
-	border:         0.5mm solid #363a4f;
-	border-color:   #b7bdf8;
-	transition:     border-color 0.2s;
+.musicplayer:hover, .info:hover, .links:hover, .social:hover {
+	border:         1mm solid #363a4f;
+    border-radius:  20px;
+	border-color:   #f0c6c6;
+	transition:     border-color 0.3s;
 }
 
-.header-img {
-	width:	1600px;
-	width:	400px;
-}
-
-.header {
-	margin-bottom: 20px;
-}
-
-.info, .greeting, .musicplayer, .links, .social {
+.info, .musicplayer, .links, .social {
     transition:         border-color 0.5s ease-in-out 0.01s;
     background-color:   #363a4f;
-    border-radius:      5px;
-    border:             0.5mm solid #363a4f;
+    border-radius:      20px;
+    border:             1mm solid #363a4f;
     border-color:       #494d64;
+}
+
+.musicplayer {
+    padding-bottom: 30px;
 }
 
 .track, .album, .artist {
@@ -121,7 +125,7 @@ body::before {
     width:          100%;
     height:         auto;
     max-width:      150px;
-    border-radius:  5px;
+    border-radius:  10px;
 }
 
 .wave-text {
@@ -134,31 +138,31 @@ body::before {
     animation:  wave 2s ease-in-out infinite;
 }
 
-.wave-text span:nth-child(1) { animation-delay: 0.0s; }
-.wave-text span:nth-child(2) { animation-delay: 0.1s; }
-.wave-text span:nth-child(3) { animation-delay: 0.2s; }
-.wave-text span:nth-child(4) { animation-delay: 0.3s; }
-.wave-text span:nth-child(5) { animation-delay: 0.4s; }
-.wave-text span:nth-child(6) { animation-delay: 0.5s; }
-.wave-text span:nth-child(7) { animation-delay: 0.6s; }
-.wave-text span:nth-child(8) { animation-delay: 0.7s; }
-.wave-text span:nth-child(9) { animation-delay: 0.8s; }
-.wave-text span:nth-child(10) { animation-delay: 0.9s; }
-.wave-text span:nth-child(11) { animation-delay: 1.0s; }
-.wave-text span:nth-child(12) { animation-delay: 1.1s; }
-.wave-text span:nth-child(13) { animation-delay: 1.2s; }
-.wave-text span:nth-child(14) { animation-delay: 1.3s; }
-.wave-text span:nth-child(15) { animation-delay: 1.4s; }
-.wave-text span:nth-child(16) { animation-delay: 1.5s; }
-.wave-text span:nth-child(17) { animation-delay: 1.6s; }
-.wave-text span:nth-child(18) { animation-delay: 1.7s; }
-.wave-text span:nth-child(19) { animation-delay: 1.8s; }
-.wave-text span:nth-child(20) { animation-delay: 1.9s; }
-.wave-text span:nth-child(21) { animation-delay: 2.0s; }
-.wave-text span:nth-child(22) { animation-delay: 2.1s; }
-.wave-text span:nth-child(23) { animation-delay: 2.2s; }
-.wave-text span:nth-child(24) { animation-delay: 2.3s; }
-.wave-text span:nth-child(25) { animation-delay: 2.4s; }
+.wave-text span:nth-child(1)    { animation-delay: 0.0s; }
+.wave-text span:nth-child(2)    { animation-delay: 0.1s; }
+.wave-text span:nth-child(3)    { animation-delay: 0.2s; }
+.wave-text span:nth-child(4)    { animation-delay: 0.3s; }
+.wave-text span:nth-child(5)    { animation-delay: 0.4s; }
+.wave-text span:nth-child(6)    { animation-delay: 0.5s; }
+.wave-text span:nth-child(7)    { animation-delay: 0.6s; }
+.wave-text span:nth-child(8)    { animation-delay: 0.7s; }
+.wave-text span:nth-child(9)    { animation-delay: 0.8s; }
+.wave-text span:nth-child(10)   { animation-delay: 0.9s; }
+.wave-text span:nth-child(11)   { animation-delay: 1.0s; }
+.wave-text span:nth-child(12)   { animation-delay: 1.1s; }
+.wave-text span:nth-child(13)   { animation-delay: 1.2s; }
+.wave-text span:nth-child(14)   { animation-delay: 1.3s; }
+.wave-text span:nth-child(15)   { animation-delay: 1.4s; }
+.wave-text span:nth-child(16)   { animation-delay: 1.5s; }
+.wave-text span:nth-child(17)   { animation-delay: 1.6s; }
+.wave-text span:nth-child(18)   { animation-delay: 1.7s; }
+.wave-text span:nth-child(19)   { animation-delay: 1.8s; }
+.wave-text span:nth-child(20)   { animation-delay: 1.9s; }
+.wave-text span:nth-child(21)   { animation-delay: 2.0s; }
+.wave-text span:nth-child(22)   { animation-delay: 2.1s; }
+.wave-text span:nth-child(23)   { animation-delay: 2.2s; }
+.wave-text span:nth-child(24)   { animation-delay: 2.3s; }
+.wave-text span:nth-child(25)   { animation-delay: 2.4s; }
 
 .wave-text span:nth-child(8),
 .wave-text span:nth-child(10),
@@ -179,10 +183,12 @@ body::before {
 
 @keyframes wave {
     0%, 100% { 
-        transform: translateY(0px); 
+        transform: translateY(0px);
+        color: #f4dbd6;
     }
     50% { 
-        transform: translateY(-5px); 
+        transform: translateY(-5px);
+        color: #f0c6c6;
     }
 }
 
