@@ -24,7 +24,7 @@ body {
     background-image:   url('https://i.pinimg.com/736x/85/ff/02/85ff02152831e209769d60bbf847063b.jpg');
     min-height:         100vh;
     background-size:    343px 610px;
-    animation:          moveBackground 20s linear infinite;
+    animation:          moveBackground 35s linear infinite;
 }
 
 body::before {
@@ -50,17 +50,22 @@ body::before {
 	flex-direction:     row
 }
 
-.photos-button {
-	border-radius:  10px;
-}
-
-.photos-button, .buttons-button, .about-button, .main-button, .info {
-	padding-bottom: 20px;
+.photos-button, .buttons-button, .about-button, .main-button {
     border-radius:  10px;
 }
 
 .mytelegram, .myyoutube, .mybluesky {
 	border-radius:  5px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-links {
+    flex-direction: row !important;
+    padding-bottom: 20px;
 }
 
 .musicplayer, .social, .info {
