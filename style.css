@@ -85,14 +85,14 @@ body::before {
     max-width: 650px;
 }
 
-.musicplayer:hover, .info:hover, .links:hover, .social:hover {
+.musicplayer:hover, .info:hover, .links:hover, .social:hover, div.info:nth-child(3) > a:nth-child(4) > img:nth-child(1):hover{
 	border:         1mm solid #363a4f;
     border-radius:  20px;
 	border-color:   #f0c6c6;
 	transition:     border-color 0.3s;
 }
 
-.info, .musicplayer, .links, .social {
+.info, .musicplayer, .links, .social, div.info:nth-child(3) > a:nth-child(4) > img:nth-child(1) {
     transition:         border-color 0.5s ease-in-out 0.01s;
     background-color:   #363a4f;
     border-radius:      20px;
