@@ -55,7 +55,7 @@ body::before {
 }
 
 .mytelegram, .myyoutube, .mybluesky {
-	border-radius:  5px;
+	border-radius:  10px;
 }
 
 .links {
