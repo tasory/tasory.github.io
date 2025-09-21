@@ -14,6 +14,9 @@ body {
     .header {
         font-size: 13px;
     }
+    .info {
+        flex-direction: column !important;
+    }
 }
 
 .header {
