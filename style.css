@@ -64,6 +64,7 @@ body::before {
 .links {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .links-links {
@@ -84,11 +85,11 @@ body::before {
 	padding-bottom: 20px;
 }
 
-.info {
+.info, .info-aboutme {
 	padding-top: 20px;
 }
 
-.info, .musicplayer {
+.info, .musicplayer, .info-aboutme {
     padding-bottom: 20px;
 }
 
@@ -97,7 +98,7 @@ body::before {
     max-width: 650px;
 }
 
-.musicplayer:hover, .info:hover, .links:hover, .social:hover, 
+.musicplayer:hover, .info:hover, .info-aboutme:hover, .links:hover, .social:hover,  
 div.info:nth-child(3) > a:nth-child(4) > img:nth-child(1):hover {
 	border:         1mm solid #363a4f;
     border-radius:  20px;
@@ -105,7 +106,7 @@ div.info:nth-child(3) > a:nth-child(4) > img:nth-child(1):hover {
 	transition:     border-color 0.3s;
 }
 
-.info, .musicplayer, .links, .social, 
+.info, .info-aboutme, .musicplayer, .links, .social, 
 div.info:nth-child(3) > a:nth-child(4) > img:nth-child(1) {
     transition:         border-color 0.5s ease-in-out 0.01s;
     background-color:   #363a4f;
@@ -140,6 +141,53 @@ div.info:nth-child(3) > a:nth-child(4) > img:nth-child(1) {
     height:         auto;
     max-width:      150px;
     border-radius:  10px;
+}
+
+.link {
+    color: #f4dbd6;
+    text-decoration: #5b6078;
+}
+
+.links-links a {
+    background-color: #494d64;
+    font-size: 30px;
+    padding: 5px;
+    border: 0.1px solid #5b6078;
+    border-radius: 10px;
+}
+
+.links h2 {
+    color: #f0c6c6;
+}
+
+.social > div {
+    padding-left: 5px;
+}
+
+.info-aboutme {
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    padding-bottom: 50px;
+}
+
+.info-aboutme p {
+    margin-bottom: -5px;
+}
+
+.info {
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    center;
+    align-items:        center;
+    gap:                10px;
+}
+
+.info img {
+    border-radius:  10px;
+    height:         150px;
+    width:          auto;
 }
 
 .wave-text {
