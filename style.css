@@ -17,6 +17,20 @@ body {
     .info {
         flex-direction: column !important;
     }
+
+    .link text {
+        font-size: 12px;
+    }
+
+    .cover {
+        aspect-ratio:   1 / 1;
+    }
+
+    .musicplayer-container {
+        display: flex;
+        flex-direction: row !important;
+    }
+
 }
 
 .header {
@@ -25,11 +39,11 @@ body {
 
 
 body {
-    /*background-image:   url('https://i.pinimg.com/736x/85/ff/02/85ff02152831e209769d60bbf847063b.jpg');*/
-    background-image: url(./src/pattern.png);
+    background-image:   url('https://i.pinimg.com/736x/85/ff/02/85ff02152831e209769d60bbf847063b.jpg');
+    /* background-image: url(./src/pattern.png); */
     min-height:         100vh;
-    background-size:    350px 350px;
-    /*animation:          moveBackground 35s linear infinite;*/
+    background-size:    20%;
+    animation:          moveBackground 35s linear infinite;
 }
 
 body::before {
@@ -109,6 +123,20 @@ div.info:nth-child(3) > a:nth-child(4) > img:nth-child(1):hover {
 	transition:     border-color 0.3s;
 }
 
+.cover:hover, .info img:hover {
+    border:         1mm solid #363a4f;
+	border-color:   #f0c6c6;
+	transition:     border-color 0.3s;
+}
+
+.cover, .info img {
+    transition:         border-color 0.5s ease-in-out 0.01s;
+    background-color:   #363a4f;
+    border-radius:      20px;
+    border:             1mm solid #363a4f;
+    border-color:       #494d64;
+}
+
 .info, .info-aboutme, .musicplayer, .links, .social, 
 div.info:nth-child(3) > a:nth-child(4) > img:nth-child(1) {
     transition:         border-color 0.5s ease-in-out 0.01s;
@@ -141,9 +169,10 @@ div.info:nth-child(3) > a:nth-child(4) > img:nth-child(1) {
 
 .cover {
     width:          100%;
-    height:         auto;
+    height:         100%;
     max-width:      150px;
     border-radius:  10px;
+    aspect-ratio:   1 / 1;
 }
 
 .link {
