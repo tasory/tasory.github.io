@@ -30,7 +30,10 @@ body {
         display: flex;
         flex-direction: row !important;
     }
-
+    
+    .links-links a {
+        font-size: 20px !important;
+    }
 }
 
 .header {
